@@ -1,0 +1,40 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import "modern-normalize/modern-normalize.css";
+@import url('./reset.css');
+@import url('./1-gallery.css');
+@import url('./2-form.css');
+
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  /* 150% */
+}
+
+.homepage-link {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.nav-list {
+  display: flex;
+  margin: 20px;
+  gap: 20px;
+}
+
+a {
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
